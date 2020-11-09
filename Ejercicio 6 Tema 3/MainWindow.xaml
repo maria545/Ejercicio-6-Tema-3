@@ -16,18 +16,23 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground></TextBlock>
         <UniformGrid>
+            
             <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
                 <Image Source="invierno.jpg" />
             </ScrollViewer>
+            
             <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
                 <Image Source="primavera.jpg"/>
             </ScrollViewer>
+            
             <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
                 <Image Source="verano.jpg"/>
             </ScrollViewer>
+            
             <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
                 <Image Source="otoño.jpg"/>
             </ScrollViewer>
+            
         </UniformGrid>
     </DockPanel>
 </Window>
