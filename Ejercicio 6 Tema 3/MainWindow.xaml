@@ -1,0 +1,33 @@
+﻿<Window x:Class="Ejercicio_6_Tema_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio_6_Tema_3"
+        mc:Ignorable="d"
+        Title="Estaciones" Height="450" Width="800"
+        Icon="summer_season.ico">
+    <DockPanel Background="LightCyan">
+        <TextBlock DockPanel.Dock="Top" Text="Las 4 estaciones" FontSize="30" HorizontalAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF399C39" Offset="0.321"/>
+                    <GradientStop Color="White" Offset="0.889"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground></TextBlock>
+        <UniformGrid>
+            <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
+                <Image Source="invierno.jpg" />
+            </ScrollViewer>
+            <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
+                <Image Source="primavera.jpg"/>
+            </ScrollViewer>
+            <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
+                <Image Source="verano.jpg"/>
+            </ScrollViewer>
+            <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="10">
+                <Image Source="otoño.jpg"/>
+            </ScrollViewer>
+        </UniformGrid>
+    </DockPanel>
+</Window>
